@@ -67,7 +67,7 @@ public class ClientController {
     }
 
     /**
-     * @param client la instancia del cliente a eliminar
+     * @param id el id del cliente a eliminar
      * @return si fue eliminado o no
      */
     @DeleteMapping("/{id}")
